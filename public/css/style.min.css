@@ -252,6 +252,11 @@ body {
     padding: 40px;
   }
 }
+@media (max-width: 500px) {
+  #session-4 .testimonials .profiles {
+    height: auto;
+  }
+}
 #session-4 .testimonials .profiles .top {
   padding: 20px 0;
   height: 50%;
@@ -399,6 +404,11 @@ body {
   text-align: left;
   display: flex;
 }
+@media (max-width: 900px) {
+#session-5 footer .div .contacts .location {
+width: 100%;
+}
+}
 #session-5 footer .div .contacts .location * {
   padding: 5px;
 }
@@ -441,6 +451,8 @@ body {
   }
 }
 #session-5 footer .div .contacts .lists ul {
+	width: 100%;
+text-align: center;
   list-style: none;
 }
 #session-5 footer .div .contacts .lists ul li {
@@ -455,4 +467,9 @@ body {
 #session-5 footer .div .contacts .lists #icons li {
   display: inline-block;
   padding: 10px;
+}
+@media (max-width: 400px) {
+#logo-footer{
+	padding-top: 60px;
+}
 }
